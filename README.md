@@ -18,6 +18,7 @@ Stage & Shutter Serial Control Script
 実行状況のコンソール出力
 
 使用環境
+
 Python 3.x
 pyserial ライブラリ
 インストール例：
@@ -25,6 +26,7 @@ bash
 pip install pyserial
 
 ファイル構成
+
 bash
 stage_shutter_control.py    # メインスクリプト
 README.md                   # 本ファイル
@@ -43,6 +45,7 @@ python stage_shutter_control.py
 実行中のコマンド・応答はコンソールに出力されます。
 
 注意事項
+
 本スクリプトは特定の研究用モーター制御ステージ／シャッター装置を対象としています。
 
 使用する装置の仕様により、コマンド内容や待機時間（sleep）は調整が必要です。
