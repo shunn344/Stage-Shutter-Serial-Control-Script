@@ -55,6 +55,7 @@ python stage_shutter_control.py
 コードは研究用途を前提として公開しており、動作保証は行っておりません。
 
 今後の改良予定
+
 コマンドリストの外部ファイル化（例：YAML / JSON設定）
 
 ログ出力機能の追加
@@ -64,9 +65,11 @@ python stage_shutter_control.py
 コマンド実行進行状況のGUI化（オプション）
 
 ライセンス
+
 MIT License
 
 作者
+
 [shunn344]
 研究用に作成した実験補助用スクリプトです。
 
